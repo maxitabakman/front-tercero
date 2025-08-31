@@ -1,0 +1,78 @@
+body{
+    background-color: peru;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+}
+.container div{
+    height: 2rem;
+    font-weight: 100px;
+    width:  2rem;
+    padding:  3px;
+    background-color:green;
+    margin: 5rem ;
+    padding: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 5rem;
+border: 5px solid lightblue;
+
+}
+
+.container{
+ color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 10rem;
+width: 10rem;
+margin: 5rem auto;
+flex-wrap: 3rem;
+
+}
+
+
+.a:hover{
+    background-color: lightgreen;
+    position: relative;
+    bottom: 20px;
+    transition: all 1.3s ease;
+     transform: translateY(-20px)  rotate(360deg) scale(1.2)
+}
+.b:hover{
+    background-color: magenta;
+    position: relative;
+    bottom: 20px;
+    transition: all 1.3s ease;
+     transform: translateY(-20px)  rotate(360deg) scale(1.2)
+
+}
+.fila div{
+    height: 2rem;
+    font-weight: 100px;
+    width:  2rem;
+    padding:  3px;
+    background-color:green;
+    margin: 5rem ;
+    padding: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 5rem;
+border: 5px solid lightblue;
+
+}
+
+.fila{
+ color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 10rem;
+width: 10rem;
+margin: 5rem auto;
+flex-wrap: 3rem;
+
+}
