@@ -1,0 +1,41 @@
+:root{
+    --celeste: rgb(112, 176, 235);
+    --blanco: azure;
+    --primary: lightskyblue;
+    --accent: lightsalmon;
+    --bg: gray;
+    --support: lightsteelblue;
+    --color-feo-para-ver: green;
+    
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-color: var(--blanco);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+flex: 1;
+background-color: var(--celeste);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 25%;
+width: 100%;
+height: 75px;
+p{
+    display: flex;
+    font-size: 2rem;
+    color: var(--blanco);
+}}
